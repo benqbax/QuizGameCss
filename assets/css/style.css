@@ -1,0 +1,100 @@
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  font-family: 'Slabo 27px', serif;
+  margin-bottom: 60px;
+  padding: 7em 0;
+}
+
+.wrapper {
+  height: 100%;
+  overflow: hidden;
+}
+
+footer {
+  position: fixed;
+  height: 60px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  padding: 1.2em;
+  text-align: center;
+  margin-bottom: 0px;
+  border-top: 1px solid #E4DBDA;
+}
+
+footer h4 {
+  padding: 0;
+  margin: 0;
+}
+
+.box {
+  margin: 0 auto;
+  height: 500px;
+  padding: 0 18px;
+}
+
+.box header {
+  padding: 1em 0;
+  text-align: center;
+}
+
+.box header h1 {
+  margin: 0 0 1em 0;
+  padding: 0;
+  font-size: 1.25em;
+}
+
+.box .line {
+  width: 200px;
+  height: 1px;
+  background-color: black;
+  margin: 0 auto 3.5em  auto;
+}
+
+.box .alternatives {
+  text-align: center;
+  margin-bottom: 45px;
+}
+
+.box .alternatives ul {
+  padding: 0;
+  list-style-type: none;
+}
+
+.box .alternatives ul li {
+  margin-bottom: 3em;
+}
+
+.box .alternatives ul li a {
+  font-size: 1.1em;
+  text-decoration: none;
+  color: black;
+}
+
+.box .alternatives ul li a:hover {
+  color: grey;
+}
+
+#replay {
+  font-size: 1.1em;
+  text-align: center;
+}
+
+#replay #done {
+  margin-bottom: 45px;
+}
+
+#replay #replaymatch {
+  font-weight: 700;
+}
+
+#replay #replaymatch:hover {
+  color: grey;
+}
